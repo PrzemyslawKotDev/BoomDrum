@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+    height: 95vh;
+    width: 99%;
+    display: flex;
+}
+* {
+  box-sizing: border-box;
+}
+#drum-machine {
+  background-color: lightgray;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  height: 30px;
+  margin: 10px 0 0 10px;
+}
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  gap: 30px;
+}
+#buttons {
+  background-color: lightgray;
+  height: 310px;
+  width: 310px;  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+  align-content: center;
+}
+.drum-pad {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(0, 120, 160);
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Varela Round";
+  border: solid 2px black;
+}
+.drum-pad:hover {
+  cursor: pointer;
+}
+#display {
+  height: 302px;
+  width: 302px;
+  background: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  
+}
+#volumelabel {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Varela Round";
+}
+#volume {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+#volume:hover {
+  cursor: pointer;
+}
+#soundName {
+  font-family: "Varela Round";
+  color: green;
+  background-color: black;
+  height: 40px;
+  font-size: 25px;  
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+  width: 100%;
+}
+#sign {
+  font-family: 'Roboto Mono';
+  font-size: 0.4em;
+  color: black;
+  text-align: center;
+  margin-bottom: 1em;
+}
